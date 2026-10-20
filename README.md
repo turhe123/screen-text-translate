@@ -1,5 +1,7 @@
 # ScreenTextTranslate
 
+**🌐 Website:** [turhe123.github.io/screen-text-translate](https://turhe123.github.io/screen-text-translate/)
+
 Drag a box over foreign text anywhere on screen and see the translation right there in a floating card.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -33,7 +35,17 @@ ScreenTextTranslate is a free, open-source, 100% native, backend-free alternativ
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-menu.png" alt="ScreenTextTranslate menu-bar menu with recent translations" width="720"></p>
+
+<p align="center"><em>The menu-bar menu: start a Translate Region capture with ⌃⌥T, browse recent translations, open Settings or support the project.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-settings.png" alt="ScreenTextTranslate Settings window" width="560"></p>
+
+<p align="center"><em>Settings let you re-record the hotkey, pick a target language, toggle overlay mode and auto-copy, and choose favorite source languages for better recognition.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-recent-translations.png" alt="Recent translation submenu with Copy Original and Copy Translation" width="560"></p>
+
+<p align="center"><em>Each recent translation has a submenu for copying the original text or the translation again.</em></p>
 
 ## Install
 

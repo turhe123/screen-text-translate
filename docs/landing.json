@@ -1,0 +1,60 @@
+{
+  "seo_title": "Screen text translator for macOS",
+  "seo_description": "Free, open-source macOS menu-bar app. Drag a box over any text on screen and read the on-device translation in a floating card. No accounts, no servers.",
+  "hero_title_line1": "Drag a box over text.",
+  "hero_title_accent": "Read it in your language.",
+  "hero_sub": "Press Control-Option-T, drag over any text on screen, and a floating card shows the translation. Recognition and translation both run on your Mac.",
+  "features_title": "Translate what you can't select.",
+  "features_sub": "Videos, games, images, PDFs and apps: if it's on screen, ScreenTextTranslate can read it.",
+  "features": [
+    {
+      "icon": "keyboard",
+      "title": "Global hotkey capture",
+      "desc": "Start a capture from anywhere with Control-Option-T, or re-record the shortcut in Settings. Press Esc at any time to cancel."
+    },
+    {
+      "icon": "text",
+      "title": "On-device OCR and detection",
+      "desc": "Apple's Vision framework reads the text, retries rotated to catch vertical lines, and NaturalLanguage detects the source language. Favorite source languages improve recognition."
+    },
+    {
+      "icon": "window",
+      "title": "Floating result card",
+      "desc": "See the original, the translation and a target-language popup next to your selection. Copy either text, or press Esc to dismiss."
+    },
+    {
+      "icon": "image",
+      "title": "Overlay mode",
+      "desc": "Paint the translated lines directly over a snapshot of the original region. Overlay mode requires macOS 15 or later."
+    },
+    {
+      "icon": "clipboard",
+      "title": "History and auto-copy",
+      "desc": "Recent translations stay in the menu, from 5 to 100 entries, with copy actions for the original and the translation. Turn on auto-copy to skip the extra click."
+    },
+    {
+      "icon": "lock",
+      "title": "Private by design",
+      "desc": "No network calls, analytics or third-party dependencies. Captured images are processed in memory and never saved or sent anywhere."
+    }
+  ],
+  "permissions_step": "When prompted, allow Screen Recording for ScreenTextTranslate in System Settings → Privacy & Security → Screen & System Audio Recording, then quit and reopen the app.",
+  "faq": [
+    {
+      "q": "Is ScreenTextTranslate really free and open source?",
+      "a": "Yes. It is released under the MIT license, and the full source is on GitHub. There are no accounts, subscriptions or API keys, and an optional Support button links to Ko-fi."
+    },
+    {
+      "q": "What permissions does it need?",
+      "a": "Screen Recording is required so the app can capture the region you select. Launch at login is optional and only used if you enable it. It does not request Accessibility or Microphone access, and the hotkey needs no permission."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "Settings are stored in the app's preferences, and your recent translations are kept in a small JSON file in Application Support on your Mac. Captured images are processed in memory and are not saved to disk or sent anywhere."
+    },
+    {
+      "q": "Why isn't the app notarized?",
+      "a": "Notarization requires a paid Apple Developer account, and this is a free project. Right-click the app and choose Open once to get past Gatekeeper, or build it yourself from source with Xcode."
+    }
+  ]
+}

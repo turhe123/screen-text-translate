@@ -1,0 +1,5 @@
+[
+  {"file":"01-menu.png","caption":"The menu-bar menu: start a Translate Region capture with ⌃⌥T, browse recent translations, open Settings or support the project.","alt":"ScreenTextTranslate menu-bar menu with recent translations"},
+  {"file":"02-settings.png","caption":"Settings let you re-record the hotkey, pick a target language, toggle overlay mode and auto-copy, and choose favorite source languages for better recognition.","alt":"ScreenTextTranslate Settings window"},
+  {"file":"03-recent-translations.png","caption":"Each recent translation has a submenu for copying the original text or the translation again.","alt":"Recent translation submenu with Copy Original and Copy Translation"}
+]
